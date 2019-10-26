@@ -1,0 +1,19 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "This is like siri",
+  "main": "lirilogic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouri10/liri-node-app.git"
+  },
+  "author": "Gouri Peddinti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gouri10/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/gouri10/liri-node-app#readme"
+}
