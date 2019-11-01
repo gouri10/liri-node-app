@@ -31,30 +31,30 @@ SPOTIFY_SECRET=your-spotify-secret
 
 # Installation
 ##Navigate to the root of our application and Run the below command to install all npm packages
+
 npm install 
 
 
 # Running the tests
 node liri.js movie-this '<movie name here>'
-![Sample Movie-this Output](images/movie-this-output.png)
+![Sample Movie-this Output](/images/movie-this-output.png)
 
 node liri.js spotify-this-song '<song name here>'
-![Sample Spotify-this-song Output](images/spotify-this-song-output.png)
+![Sample Spotify-this-song Output](/images/spotify-this-song-output.png)
 
 node liri.js concert-this <artist/band name here>
-![Sample Concert-this Output](images/concert-this-output.png)
+![Sample Concert-this Output](/images/concert-this-output.png)
 
 node liri.js do-what-it-says
-![Sample do-what-it-says Output](images/do-what-it-says-output.png)
+![Sample do-what-it-says Output](/images/do-what-it-says-output.png)
 
 
 # Built With
-Node - The web framework 
+Node - The web framework
 JQuery -Web Scripting
 
 # Authors
 Gouri peddinti :- Developer
-See also the list of contributors who participated in this project.
 
 # License
 This project is licensed under the ISC License
