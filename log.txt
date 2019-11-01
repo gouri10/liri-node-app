@@ -1,0 +1,131 @@
+node liri.js movie-this starWars
+---------------------------------------
+Title : The StarWars Adventures
+Year : 2016–
+IMDB Rating : N/A
+Country : UK
+Language : English
+Plot : After splitting the Battalion into four companies, Thunder Company, under the command of Captain Mandeville,was sent to investigate Decks 300 to 600. To achieve this in the quickest ...
+Actors : Ron Arthurs, Jonathan Beetles, Jake Gosden, Matt Jackson
+
+*******************************************************************************************************************************************************
+
+node liri.js movie-this starWars
+---------------------------------------
+Title : The StarWars Adventures
+Year : 2016–
+IMDB Rating : N/A
+Country : UK
+Language : English
+Plot : After splitting the Battalion into four companies, Thunder Company, under the command of Captain Mandeville,was sent to investigate Decks 300 to 600. To achieve this in the quickest ...
+Actors : Ron Arthurs, Jonathan Beetles, Jake Gosden, Matt Jackson
+
+*******************************************************************************************************************************************************
+
+node liri.js concert-this Celine Dion
+---------------------------------------
+Venue : Fiserv Forum, Location : WI Milwaukee United States, DateTime : 11/03/2019
+Venue : Little Caesars Arena, Location : MI Detroit United States, DateTime : 11/05/2019
+Venue : Bell Centre, Location :  Montreal Canada, DateTime : 11/18/2019
+Venue : Bell Centre, Location :  Montreal Canada, DateTime : 11/19/2019
+Venue : Bell Centre, Location :  Montreal Canada, DateTime : 11/21/2019
+Venue : Bell Centre, Location :  Montreal Canada, DateTime : 11/22/2019
+Venue : United Center, Location : IL Chicago United States, DateTime : 12/01/2019
+Venue : Bankers Life Fieldhouse, Location : IN Indianapolis United States, DateTime : 12/03/2019
+Venue : KeyBank Center, Location : NY Buffalo United States, DateTime : 12/05/2019
+Venue : Times Union Center, Location : NY Albany United States, DateTime : 12/07/2019
+Venue : Scotiabank Arena, Location :  Toronto Canada, DateTime : 12/09/2019
+Venue : Scotiabank Arena, Location :  Toronto Canada, DateTime : 12/10/2019
+Venue : TD Garden, Location : MA Boston United States, DateTime : 12/13/2019
+Venue : TD Garden, Location : MA Boston United States, DateTime : 12/14/2019
+Venue : VyStar Veterans Memorial Arena, Location : FL Jacksonville United States, DateTime : 01/08/2020
+Venue : State Farm Arena, Location : GA Atlanta United States, DateTime : 01/11/2020
+Venue : Bridgestone Arena, Location : TN Nashville United States, DateTime : 01/13/2020
+Venue : Amalie Arena, Location : FL Tampa United States, DateTime : 01/15/2020
+Venue : AmericanAirlines Arena, Location : FL Miami United States, DateTime : 01/17/2020
+Venue : AmericanAirlines Arena, Location : FL Miami United States, DateTime : 01/18/2020
+Venue : Spectrum Center, Location : NC Charlotte United States, DateTime : 01/21/2020
+Venue : AT&T Center, Location : TX San Antonio United States, DateTime : 01/30/2020
+Venue : Toyota Center, Location : TX Houston United States, DateTime : 02/01/2020
+Venue : American Airlines Center, Location : TX Dallas United States, DateTime : 02/03/2020
+Venue : BOK Center, Location : OK Tulsa United States, DateTime : 02/05/2020
+Venue : Smoothie King Center, Location : LA New Orleans United States, DateTime : 02/07/2020
+Venue : FedExForum, Location : TN Memphis United States, DateTime : 02/09/2020
+Venue : PNC Arena, Location : NC Raleigh United States, DateTime : 02/11/2020
+Venue : Bell Centre, Location :  Montreal Canada, DateTime : 02/18/2020
+Venue : Bell Centre, Location :  Montreal Canada, DateTime : 02/19/2020
+Venue : Boardwalk Hall, Location : NJ Atlantic City United States, DateTime : 02/22/2020
+Venue : Royal Farms Arena (formerly Baltimore Arena), Location : MD Baltimore United States, DateTime : 02/24/2020
+Venue : Wells Fargo Center, Location : PA Philadelphia United States, DateTime : 02/26/2020
+Venue : Barclays Center, Location : NY Brooklyn United States, DateTime : 02/28/2020
+Venue : Barclays Center, Location : NY Brooklyn United States, DateTime : 02/29/2020
+Venue : Nassau Veterans Memorial Coliseum, Location : NY Uniondale United States, DateTime : 03/03/2020
+Venue : Barclays Center, Location : NY Brooklyn United States, DateTime : 03/05/2020
+Venue : Prudential Center, Location : NJ Newark United States, DateTime : 03/07/2020
+Venue : Prudential Center, Location : NJ Newark United States, DateTime : 03/08/2020
+Venue : Capital One Arena, Location : DC Washington United States, DateTime : 03/11/2020
+Venue : PPG Paints Arena, Location : PA Pittsburgh United States, DateTime : 03/13/2020
+Venue : Pepsi Center, Location : CO Denver United States, DateTime : 03/24/2020
+Venue : Vivint Smart Home Arena, Location : UT Salt Lake City United States, DateTime : 03/26/2020
+Venue : Gila River Arena, Location : AZ Glendale United States, DateTime : 03/29/2020
+Venue : Pechanga Arena San Diego, Location : CA San Diego United States, DateTime : 03/31/2020
+Venue : Staples Center, Location : CA Los Angeles United States, DateTime : 04/02/2020
+Venue : Staples Center, Location : CA Los Angeles United States, DateTime : 04/03/2020
+Venue : Golden 1 Center, Location : CA Sacramento United States, DateTime : 04/07/2020
+Venue : Oakland Arena, Location : CA Oakland United States, DateTime : 04/09/2020
+Venue : Chase Center, Location : CA San Francisco United States, DateTime : 04/10/2020
+Venue : Chase Center, Location : CA San Francisco United States, DateTime : 04/11/2020
+Venue : Moda Center, Location : OR Portland United States, DateTime : 04/13/2020
+Venue : Tacoma Dome, Location : WA Tacoma United States, DateTime : 04/15/2020
+Venue : Rogers Arena, Location :  Vancouver Canada, DateTime : 04/17/2020
+Venue : Rogers Arena, Location :  Vancouver Canada, DateTime : 04/18/2020
+Venue : Rogers Place, Location :  Edmonton Canada, DateTime : 04/21/2020
+Venue : Rogers Place, Location :  Edmonton Canada, DateTime : 04/22/2020
+Venue : Sasktel Centre, Location :  Saskatoon Canada, DateTime : 04/25/2020
+Venue : Bell MTS Place, Location :  Winnipeg Canada, DateTime : 04/27/2020
+Venue : O2 Arena, Location :  Prague Czech Republic, DateTime : 05/21/2020
+Venue : Atlas Arena, Location :  Łódź Poland, DateTime : 05/23/2020
+Venue : Tauron Arena Krakow, Location :  Kraków Poland, DateTime : 05/25/2020
+Venue : Sportpaleis, Location :  Antwerpen - Merksem Belgium, DateTime : 05/28/2020
+Venue : Sportpaleis, Location :  Antwerpen - Merksem Belgium, DateTime : 05/30/2020
+Venue : Hallenstadion, Location :  Zürich Switzerland, DateTime : 06/02/2020
+Venue : Hallenstadion, Location :  Zürich Switzerland, DateTime : 06/03/2020
+Venue : ARENA ZAGREB, Location :  Zagreb Croatia, DateTime : 06/05/2020
+Venue : Papp Laszlo Arena, Location :  Budapest Hungary, DateTime : 06/07/2020
+Venue : Ziggo Dome, Location :  Amsterdam Netherlands, DateTime : 06/10/2020
+Venue : Ziggo Dome, Location :  Amsterdam Netherlands, DateTime : 06/12/2020
+Venue : Ziggo Dome, Location :  Amsterdam Netherlands, DateTime : 06/13/2020
+Venue : Wiener Stadthalle - Halle D, Location :  Wien Austria, DateTime : 06/15/2020
+Venue : Kleine Olympiahalle München, Location :  München Germany, DateTime : 06/17/2020
+Venue : SAP Arena, Location :  Mannheim Germany, DateTime : 06/19/2020
+Venue : Lanxess Arena, Location :  Köln Germany, DateTime : 06/21/2020
+Venue : Barclaycard Arena Hamburg, Location :  Hamburg Germany, DateTime : 06/22/2020
+Venue : PARIS LA DEFENSE ARENA, Location :  Nanterre France, DateTime : 06/26/2020
+Venue : PARIS LA DEFENSE ARENA, Location :  Nanterre France, DateTime : 06/27/2020
+Venue : PARIS LA DEFENSE ARENA, Location :  Nanterre France, DateTime : 06/30/2020
+Venue : PARIS LA DEFENSE ARENA, Location :  Nanterre France, DateTime : 07/01/2020
+Venue : PARIS LA DEFENSE ARENA, Location :  Nanterre France, DateTime : 07/03/2020
+Venue : PARIS LA DEFENSE ARENA, Location :  Nanterre France, DateTime : 07/04/2020
+Venue : Plaine De L'asse, Location :  Nyon France, DateTime : 07/20/2020
+Venue : Waldbühne Berlin, Location :  Berlin Germany, DateTime : 07/22/2020
+Venue : Mura di Lucca - Viale Carducci, Location :  Lucca Italy, DateTime : 07/25/2020
+Venue : National Stadium Bukarest, Location :  Bucharest Romania, DateTime : 07/29/2020
+Venue : Hartwall Arena, Location :  Helsinki Finland, DateTime : 08/24/2020
+Venue : Hartwall Arena, Location :  Helsinki Finland, DateTime : 08/25/2020
+Venue : Telenor Arena, Location :  Fornebu Norway, DateTime : 08/28/2020
+Venue : Telenor Arena, Location :  Fornebu Norway, DateTime : 08/29/2020
+Venue : Royal Arena, Location :  København S Denmark, DateTime : 08/31/2020
+Venue : Royal Arena, Location :  København S Denmark, DateTime : 09/01/2020
+Venue : Manchester Arena, Location :  Manchester United Kingdom, DateTime : 09/04/2020
+Venue : Manchester Arena, Location :  Manchester United Kingdom, DateTime : 09/05/2020
+Venue : Arena Birmingham, Location :  Birmingham United Kingdom, DateTime : 09/08/2020
+Venue : Arena Birmingham, Location :  Birmingham United Kingdom, DateTime : 09/09/2020
+Venue : The SSE Hydro, Location :  Glasgow United Kingdom, DateTime : 09/11/2020
+Venue : The SSE Hydro, Location :  Glasgow United Kingdom, DateTime : 09/12/2020
+Venue : 3Arena, Location :  Dublin Ireland, DateTime : 09/14/2020
+Venue : 3Arena, Location :  Dublin Ireland, DateTime : 09/15/2020
+Venue : The O2, Location :  London United Kingdom, DateTime : 09/17/2020
+Venue : The O2, Location :  London United Kingdom, DateTime : 09/18/2020
+
+*******************************************************************************************************************************************************
+
