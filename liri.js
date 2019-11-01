@@ -47,7 +47,6 @@ var logData = function (commandInfo, outputInfo) {
 
     var commandSeparator = "\n---------------------------------------\n";
     var mainSeparator = "\n\n*******************************************************************************************************************************************************\n\n";
-
     fs.appendFile("log.txt", commandInfo + commandSeparator + outputInfo + mainSeparator, function (err) {
         if (err) throw err;
     });
@@ -97,18 +96,35 @@ var get_SongInfo_With_Spotify = function () {
     spotify
         .search({ type: 'track', query: term, limit: 10 })
         .then(function (response) {
-            //console.log(response.artists.items[0]);
-            //console.log(response.tracks.items[0]);
-            console.log("The Song's Name : " + term);
-                console.log("Spotify Preview Link : " + response.tracks.items[0].album.external_urls.spotify);
-                console.log("Album Name : " + response.tracks.items[0].album.name);
-                console.log("Artist(s) : " + response.tracks.items[0].album.artists.map(e => e.name).join(","));
-            // for (var j = 0; j < 10; j++) {
-            //     console.log("The Song's Name : " + term);
-            //     console.log("Spotify Preview Link : " + response.tracks.items[j].album.external_urls.spotify);
-            //     console.log("Album Name : " + response.tracks.items[j].album.name);
-            //     console.log("Artist(s) : " + response.tracks.items[j].album.artists.map(e => e.name).join(","));
-            // }
+            var SongData=[];
+            if (term === "The Sign") {
+                for (var j = 0; j < 10; j++) {
+                    var artist=response.tracks.items[j].album.artists.map(e => e.name).join(",") ;
+                    if (artist === "Ace of Base") {                  
+                        SongData = [
+                            "The Song's Name : " + term,
+                            "Spotify Preview Link : " + response.tracks.items[j].album.external_urls.spotify,
+                            "Album Name : " + response.tracks.items[j].album.name,
+                            "Artist(s) : " + response.tracks.items[j].album.artists.map(e => e.name).join(",")
+                        ];
+                        break;
+                    }
+                }
+            }
+            else{
+                SongData = [
+                    "The Song's Name : " + term,
+                    "Spotify Preview Link : " + response.tracks.items[0].album.external_urls.spotify,
+                    "Album Name : " + response.tracks.items[0].album.name,
+                    "Artist(s) : " + response.tracks.items[0].album.artists.map(e => e.name).join(",")
+                ];
+    
+            }           
+
+            var showSongData=SongData.join("\n");
+            var command = "node liri.js " + task + " " + term;
+            logData(command, showSongData);
+            console.log(showSongData);
         })
         .catch(function (err) {
             console.log(err);
@@ -151,19 +167,22 @@ var get_ConcertInfo = function () {
 //function to perform do what it says
 var do_What_It_Says = function () {
 
-    fs.readFile("random.txt", "utf8", function(error, data) {
+    fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
-          return console.log(error);
-        }            
+            return console.log(error);
+        }
         // Then split it by commas (to make it more readable)
         var dataArr = data.split(",");
-        console.log("Executing the Contents of random.txt .......... "+dataArr +"\n");
-        task=dataArr[0];
-        term=dataArr[1]; 
-        performTask();     
-      });
+        var command = "node liri.js " + task;
+        var showFileContent="Executing the Contents of random.txt .......... " + dataArr + "\n";
+        task = dataArr[0];
+        term = dataArr[1];        
+        logData(command, showFileContent);
+        console.log(showFileContent);
+        performTask();
+    });
 }
 //end of do_What_It_Says()
 
-
+//call performtask() initially
 performTask();
