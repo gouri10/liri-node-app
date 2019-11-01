@@ -151,6 +151,17 @@ var get_ConcertInfo = function () {
 //function to perform do what it says
 var do_What_It_Says = function () {
 
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+          return console.log(error);
+        }            
+        // Then split it by commas (to make it more readable)
+        var dataArr = data.split(",");
+        console.log("Executing the Contents of random.txt .......... "+dataArr +"\n");
+        task=dataArr[0];
+        term=dataArr[1]; 
+        performTask();     
+      });
 }
 //end of do_What_It_Says()
 
